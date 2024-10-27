@@ -106,7 +106,7 @@ A continuación se muestra el enlace al vídeo obtenido con los resultados y una
 El procedimiento es el mismo de antes, pero ahora añaden los siguientes pasos:
 
 - Detección de Personas y Pixelado
-  - En cada cuadro, verifica si se detectan matrículas en los objetos de interés (automóviles, motocicletas, autobuses).
+  - En cada cuadro, verifica si se detectan matrículas en los objetos de interés (automóviles, motocicletas, guaguas).
   - Si se detecta una matrícula con una confianza mínima, realiza un pixelado en esa región y registra el nivel de confianza.
 - Detección de Matrículas y Pixelado
   - En cada cuadro, verifica si se detectan personas.
