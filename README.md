@@ -125,7 +125,6 @@ A continuación se muestra el enlace al vídeo obtenido con los resultados y una
 - [Guión de la práctica](https://github.com/otsedom/otsedom.github.io/tree/main/VC/P4)
 - [Documentación OpenCV](https://docs.opencv.org/4.x/)
 - [Documentación YOLO](https://docs.ultralytics.com/)
-- [OpenCV funciones para contornos](https://docs.opencv.org/3.4/dd/d49/tutorial_py_contour_features.html)
 - [Documentación EasyOCR](https://www.jaided.ai/easyocr/documentation/)
 
 ---
