@@ -1,5 +1,2 @@
 #Ignorar archivos de video
 *.mp4
-
-#Ignorar archivos csv
-*.csv

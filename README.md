@@ -56,7 +56,7 @@ Desarrollar un prototipo que procese uno o varios vídeos (incluyendo vídeos de
 
 - El modelo ha sido entrenado con uno de los datasets de matrículas que se pueden encontrar en la web.
 - Para llevar a cabo la anotación de las matrículas se ha empleado la herramienta [RoboFlow](https://roboflow.com/).
-- La división entre entrenamiento, validación y tests ha sido realizada también con RoboFlow, quienes realizan esta división de forma automática, una vez finalizado el proceso de anotación. Esta división se puede ver en la imagen siguiente.
+- La división entre entrenamiento, validación y tests ha sido realizada con los porcentajes 60%, 20% y 20%, esta división se puede ver la imagen siguiente.
 
 ![image](https://github.com/user-attachments/assets/2c4f68e5-1f00-42a4-836f-76e4c3f84655)
 
@@ -76,6 +76,8 @@ results = model_car_plates.val()
 #### Procedimiento
 
 Para cada fotograma, el código realiza las siguientes operaciones:
+
+##### ¡Ojo! No se ha utilizado el parámetro persist del modelo, puesto que ha supuesto complicaciones en la detección.
 
 - Detección de Objetos
   - Los objetos se detectan en el fotograma actual utilizando el modelo por defecto. Para captar personas, coches, motos y guaguas.
@@ -104,6 +106,8 @@ A continuación se muestra el enlace al vídeo obtenido con los resultados y una
 #### Extras
 
 El procedimiento es el mismo de antes, pero ahora añaden los siguientes pasos:
+
+##### ¡Ojo! No se ha utilizado el parámetro persist del modelo, puesto que ha supuesto complicaciones en la detección.
 
 - Detección de Personas y Pixelado
   - En cada cuadro, verifica si se detectan matrículas en los objetos de interés (automóviles, motocicletas, guaguas).
